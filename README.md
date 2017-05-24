@@ -1,8 +1,23 @@
 # vue-tour-of-heroes
 
-#用vue来实现angular2官方教程英雄指南任务
+用vue来实现angular2官方教程英雄指南任务
 
-> A Vue.js project
+主要功能：
+1.导航切换
+2.新增英雄
+3.编辑英雄
+4.删除英雄
+5.过滤搜索展示
+
+用到的主要技术：
+1.vue
+2.vuex
+3.router
+  3.1.router导航配置
+  3.2.路由信息对象的属性（$route.path, $route.params）
+  $route.params: 用来从英雄列表到英雄详情的导航,这个是关键
+  $route.path： router-link添加active样式
+
 
 ## Build Setup
 
