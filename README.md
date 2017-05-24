@@ -2,21 +2,21 @@
 
 #用vue来实现angular2官方教程英雄指南任务
 
-#主要功能：
-1.导航切换
-2.新增英雄
-3.编辑英雄
-4.删除英雄
-5.过滤搜索展示
+#主要功能：<br/>
+1.导航切换<br/>
+2.新增英雄<br/>
+3.编辑英雄<br/>
+4.删除英雄<br/>
+5.过滤搜索展示<br/>
 
-#用到的主要技术：
-1.vue
-2.vuex
-3.router
-  3.1.router导航配置
-  3.2.路由信息对象的属性（$route.path, $route.params）
-  $route.params: 用来从英雄列表到英雄详情的导航,这个是关键；
-  $route.path： router-link添加active样式
+#用到的主要技术：<br/>
+1.vue<br/>
+2.vuex<br/>
+3.router<br/>
+  3.1.router导航配置<br/>
+  3.2.路由信息对象的属性（$route.path, $route.params）<br/>
+  $route.params: 用来从英雄列表到英雄详情的导航,这个是关键；<br/>
+  $route.path： router-link添加active样式<br/>
 
 
 ## Build Setup
