@@ -41,10 +41,14 @@
       },
       getHero (heroId) {
         var self = this
-        self.hero = {
-          id: heroId,
-          name: self.heroes.filter((hero) => hero.id === heroId)[0].name
-        }
+        self.heroes.forEach((hero) => {
+          if (hero.id === heroId) {
+            self.hero = {
+              id: heroId,
+              name: hero.name
+            }
+          }
+        })
       },
       goBack () {
         this.$router.go(-1)

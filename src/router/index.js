@@ -23,7 +23,8 @@ export default new Router({
     },
     {
       path: '/heroDetail/:id',
-      component: heroDetail
+      component: heroDetail,
+      name: 'heroDetail'
     }
   ]
 })

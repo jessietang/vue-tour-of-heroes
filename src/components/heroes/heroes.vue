@@ -45,7 +45,11 @@
         this.selectedHero = hero
       },
       gotoDetail () {
-        this.$router.push('/heroDetail/' + this.selectedHero.id)
+        // this.$router.push('/heroDetail/' + this.selectedHero.id)
+        this.$router.push({path: '/heroDetail/' + this.selectedHero.id}) // 跟上面一种写法是等价的
+
+        // 带查询参数的路径 http://localhost:8080/#/heroDetail/8?userId=0925
+        // this.$router.push({path: '/heroDetail/' + this.selectedHero.id, query: {userId: '0925'}})
       },
       add () {
         var self = this
