@@ -17,6 +17,7 @@
   3.2.路由信息对象的属性（$route.path, $route.params）<br/>
   $route.params: 用来从英雄列表到英雄详情的导航,这个是关键；<br/>
   $route.path： router-link添加active样式<br/>
+ 
 
 
 ## Build Setup
